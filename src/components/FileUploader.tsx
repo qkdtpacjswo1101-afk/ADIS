@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import { Upload } from 'lucide-react';
 
 export default function FileUploader({ onFileUploaded }: { onFileUploaded: (file: File) => void }) {
